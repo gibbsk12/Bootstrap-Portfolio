@@ -1,0 +1,52 @@
+body{
+    background-image: url("../Assets/Images/intersection.png") !important;
+    background-size: 400px !important;
+    background-repeat: repeat !important;
+}
+
+#profile{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#main{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#sectioncontents{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#cardcontents{
+    padding: 10px;
+}
+
+.navbar {
+  background-color:#8cd3de !important;
+}
+
+h1, h2{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.nav-pills > li > a.active {
+    background-color: lightgray !important;
+}
+
+#form{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+    padding: 10px;
+}
+
+.text-white{
+    text-align: center;
+}
+
+#dogcard{
+    margin-bottom: 15px;
+}
