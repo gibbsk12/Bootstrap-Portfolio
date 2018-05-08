@@ -1,66 +1,12 @@
+/* Background Image for Every Page */
 body{
     background-image: url("../Assets/Images/intersection.png") !important;
     background-size: 400px !important;
     background-repeat: repeat !important;
 }
-
-#profile{
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-
-#main{
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-#sectioncontents{
-    background-color: white;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-#cardcontents{
-    padding: 10px;
-    text-align: center;
-}
-
-.navbar {
-  padding: 0 !important;
-  background-color: white !important;
-}
-
 h1, h2, h3{
-    font-family: 'Georgia', Times, Times New Roman, serif;
+        font-family: 'Georgia', Times, Times New Roman, serif;
 }
-
-.nav-pills > li > a.active {
-    background-color: #8cd3de !important;
-}
-
-#form{
-    margin-top: 15px;
-    margin-bottom: 15px;
-    background-color: white;
-    padding: 10px;
-}
-
-.text-white{
-    text-align: center;
-}
-
-#navbartitle{
-    background-color: #8cd3de;
-    margin: 0px;
-    padding: 10px;
-}
-
-#topbar{
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    border-bottom-color: gray;
-}
-
 .footer {
     position: relative;
     bottom: 0px;
@@ -72,8 +18,56 @@ h1, h2, h3{
     border-top-color: #8cd3de;
     text-align: center;
     color: white;
-  }
+}
 
+/* Nav Bar Styling */
+.navbar {
+    padding: 0 !important;
+    background-color: white !important;
+}
+.nav-pills > li > a.active {
+    background-color: #8cd3de !important;
+}
+#navbartitle{
+    background-color: #8cd3de;
+    margin: 0px;
+    padding: 10px;
+}
+#topbar{
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: gray;
+}
+
+/* About Me Page */
+
+#profile{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#main{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#sectioncontents{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#cardcontents{
+    padding: 10px;
+    text-align: center;
+}
+
+/* Portfolio and Contact Pages */
+#form{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+    padding: 10px;
+}
+
+/* Portfolio Page  */
 i{
     margin: 2px;
     color:  #8cd3de;
