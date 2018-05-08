@@ -1,99 +1,74 @@
 <head>
+    <meta name="viewport" content="width-device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
     <link rel="stylesheet" href="./Assets/style.css">
-
 </head>
 
 <body>
-    <!-- To Create a Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <h1>Kate Virginia Gibbs</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="topbar">
+        <div class="container">
+            <h1 id="navbartitle">Kate Virginia Gibbs</h1>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- To Make Collapsible Nav -->
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto nav nav-pills">
-                <!-- To Link to About Me Section -->
-                <li class="nav-item">
-                    <a class="nav-link" href="./index.html">About Me</a>
-                </li>
-                <!-- To Make Portfolio The Active Page -->
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Portfolio</a>
-                </li>
-                <!-- To Link Contact Page -->
-                <li class="nav-item">
-                    <a class="nav-link" href="./contact.html">Contact</a>
-                </li>
-            </ul>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
-    <!-- To create main section -->
 
     <div class="container" id="form">
-        <h2>Portfolio</h2>
+        <h2> Portfolio </h2>
         <hr>
         <div class="row">
             <div class="col-md-4">
-                <div class="card bg-dark text-white" id="dogcard">
-                    <img class="card-img" src="./Assets/Images/beagle.jpg" alt="Card image">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">Beagles</h5>
-                    </div>
-                </div>
+                <img class="portfolioimage rounded" src="./assets/images/Pomeranians.jpg" alt="Puppy">
+                <h3 class="portfolioheader">Pomeranians</h3>
             </div>
-
+            <div class="col-md-1"></div>
             <div class="col-md-4">
-                <div class="card bg-dark text-white" id="dogcard">
-                    <img class="card-img" src="./Assets/Images/german.jpeg" alt="Card image">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">German Shepherds</h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card bg-dark text-white" id="dogcard">
-                    <img class="card-img" src="./Assets/Images/Pomeranians.jpg" alt="Card image">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">Pomeranians</h5>
-                    </div>
-                </div>
+                <img class="portfolioimage rounded" src="./assets/images/puppy3.jpg" alt="Puppy">
+                <h3 class="portfolioheader">Golden Retrievers</h3>
             </div>
         </div>
-
         <div class="row">
             <div class="col-md-4">
-                <div class="card bg-dark text-white" id="dogcard">
-                    <img class="card-img" src="./Assets/Images/puppy3.jpg" alt="Card image">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">Golden Retrievers</h5>
-                    </div>
-                </div>
+                <img class="portfolioimage rounded" src="./assets/images/beagle.jpg" alt="Puppy">
+                <h3 class="portfolioheader">Beagles</h3>
             </div>
-
+            <div class="col-md-1"></div>
             <div class="col-md-4">
-                <div class="card bg-dark text-white" id="dogcard">
-                    <img class="card-img" src="./Assets/Images/yellowlab.jpg" alt="Card image">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">Yellow Labs</h5>
-                    </div>
-                </div>
+                <img class="portfolioimage rounded" src="./assets/images/german.jpeg" alt="Puppy">
+                <h3 class="portfolioheader">German Shepherds</h3>
             </div>
         </div>
-
+        <div class="row">
+            <div class="col-md-4">
+                <img class="portfolioimage rounded" src="./assets/images/yellowlab.jpg" alt="Puppy">
+                <h3 class="portfolioheader">Yellow Labs</h3>
+            </div>
+        </div>
     </div>
 
-    <footer class="container-fluid">
-        <nav class="navbar fixed-bottom">
-        </nav>
+
+    <footer class="footer navbar-fixed-bottom">
+        <p> &copy; KVG 2018 </p>
     </footer>
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
