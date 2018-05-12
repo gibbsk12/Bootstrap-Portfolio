@@ -1,16 +1,35 @@
 /* Background Image for Every Page */
+/* html {
+    height: 100%;
+} */
+
 body{
     background-image: url("../Assets/Images/intersection.png") !important;
     background-size: 400px !important;
     background-repeat: repeat !important;
+    bottom: -40;
+    height: 100%;
+
+}
+
+#footP {
+    margin-bottom: 0;
 }
 h1, h2, h3{
         font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+#wrapper {
+    min-height: 100%;
+    position: relative;
+    margin-bottom: -100px;
+    padding-bottom: 100px;
+    margin-top: 0;
+  }
+
 /* Attempts to make this footer stick to the bottom failed */
 .footer {
-    position: relative;
+    position: absolute;
     bottom: 0px;
     width: 100%;
     height: 40px;
@@ -21,6 +40,8 @@ h1, h2, h3{
     text-align: center;
     color: white;
     margin-top: 60px;
+    margin-bottom: 0;
+    clear: both;
 }
 
 /* Nav Bar Styling */
@@ -50,7 +71,7 @@ h1, h2, h3{
 }
 #main{
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 20%;
 }
 #sectioncontents{
     background-color: white;
