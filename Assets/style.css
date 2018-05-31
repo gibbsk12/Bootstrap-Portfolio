@@ -104,7 +104,7 @@ i:hover{
 .portfolioheader{
     background-color: #8cd3de;
     padding: 10px;
-    width: 250px;
+    width: 200px;
     position: absolute;
     bottom: 2px;
     font-family: 'Georgia', Times, Times New Roman, serif; 
@@ -112,7 +112,7 @@ i:hover{
 }
 
 .portfolioimage{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     margin-top: 10px;
 }
