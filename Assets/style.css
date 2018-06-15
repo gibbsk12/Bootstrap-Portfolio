@@ -1,20 +1,15 @@
-/* Background Image for Every Page */
-/* html {
-    height: 100%;
-} */
-
 body{
     background-image: url("../Assets/Images/intersection.png") !important;
     background-size: 400px !important;
     background-repeat: repeat !important;
     bottom: -40;
     height: 100%;
-
 }
 
 #footP {
     margin-bottom: 0;
 }
+
 h1, h2, h3{
         font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -64,7 +59,6 @@ h1, h2, h3{
 }
 
 /* About Me Page */
-
 #profile{
     margin-right: 10px;
     margin-bottom: 10px;
@@ -88,7 +82,10 @@ h1, h2, h3{
     margin-top: 15px;
     margin-bottom: 15px;
     background-color: white;
-    padding: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 /* Portfolio Page  */
@@ -116,3 +113,4 @@ i:hover{
     height: 200px;
     margin-top: 10px;
 }
+
